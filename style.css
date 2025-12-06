@@ -1,10 +1,40 @@
 
 /* style.css */
 
-* {
-    background-color: grey;
+
+body {
+    height: 100vh;
+    margin: 0px;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    Display: Flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
 }
 
-h1 {
-    Color: White;
+.first {
+    background-color: green;
+    flex: 4 1 0%;
+}
+
+.second {
+    background-color: purple;
+        flex: 4 1 0%;
+}
+
+.third {
+    background-color: red;
+        flex: 3 1 0%;
+}
+
+.fourth {
+    background-color: yellow;
+        flex: 3 1 0%;
+}
+
+.fifth {
+    background-color: orange;
+    flex: 1 1 0%;
+    height: 60px;
 }
