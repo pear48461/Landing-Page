@@ -135,8 +135,33 @@ img {
 }
 
 .fourth {
-    background-color: yellow;
+    background-color: #3882F6;
     flex: 1;
+    display: Flex;
+    flex: 1 1 200px;
+    margin: 100px;
+    margin-left: 270px;
+    margin-right: 270px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.fourthtext p {
+    color: lightgrey;
+
+}
+
+.fourthbutton {
+    Background: #3882F6;
+    color: white;
+    height: 30px;
+    width: 120px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
 }
 
 .footer {
