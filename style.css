@@ -114,8 +114,24 @@ img {
 
 
 .third {
-    background-color: red;
-    flex: 1;
+    background-color: #E5E7EB;
+    flex: 1 1 500px;
+    flex-display: column;
+    padding-left: 300px;
+    padding-right: 300px;
+    color: #1F2937;
+    align-content: center;
+}
+
+.thirdtext {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.thirdname {
+    font-weight: 700;
+    justify-self: right;
+    font-size: 24px;
 }
 
 .fourth {
