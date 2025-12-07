@@ -78,7 +78,6 @@ ul {
 }
 
 .second {
-    background-color: purple;
     flex: 2 1 0%;
     display: flex;
     flex-direction: column;
@@ -86,19 +85,33 @@ ul {
 }
 
 .secondheading {
-    background-color: green;
     text-align: center;
     padding: 20px;
-    flex: 1 1 50px
+    flex: 1 1 50px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 .secondcontent {
     Display: flex;
-    background-color: pink;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 20px;
     flex: 1 1 300px
 }
+
+.item {    
+    width: 170px;
+    text-align: center;
+    margin: 30px;
+}
+
+img {
+    height: 175px;
+    width: 175px;
+    border-radius:50px;
+}
+
 
 .third {
     background-color: red;
